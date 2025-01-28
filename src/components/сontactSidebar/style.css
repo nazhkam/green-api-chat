@@ -1,0 +1,22 @@
+.ContactSidebar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 29%;
+  height: 100vh;
+  background-color: #f0f4f8;
+  border-right: 1px solid #ddd;
+  padding: 10px 15px;
+  box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+.ContactSidebar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.ContactSidebar::-webkit-scrollbar-thumb {
+  background-color: #cccccc;
+  border-radius: 4px;
+}

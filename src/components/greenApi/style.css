@@ -1,0 +1,47 @@
+.block{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  padding: 20px 0;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  background-color: #ddd;
+}
+
+.blockInput {
+  font-size: 16px;
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 0 10px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.blockInput:focus {
+  border-color: #0084ff;
+  box-shadow: 0px 0px 5px rgba(0, 132, 255, 0.5);
+}
+.blockBtn {
+  font-size: 15px;
+  width: 100%;
+  height: 40px;
+  background-color: #0084ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.blockBtn:hover {
+  background-color: #006bbd;
+  transform: translateY(-2px);
+}
+
+.blockBtn:active {
+  background-color: #0056a3;
+}
